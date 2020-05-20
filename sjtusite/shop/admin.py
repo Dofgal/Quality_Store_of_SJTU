@@ -9,4 +9,8 @@ class ShopTypeAdmin(admin.ModelAdmin):
 
 @admin.register(Shop)
 class ShopAdmin(admin.ModelAdmin):
-    list_display = ('name', 'shop_type', 'content')
+    list_display = ('id', 'name', 'shop_type', 'get_read_num', 'content')
+
+#@admin.register(ReadNum)
+#class ReadNumAdmin(admin.ModelAdmin):
+ #   list_display = ('read_num', 'shop')

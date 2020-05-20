@@ -12,7 +12,9 @@ div.shop h3 {
 div.shop p.shop-info {
     margin-bottom: 0;
 }
-
+div.paginator {
+    text-align: center;
+}
 ul.shop-info-description {
     list-style-type: none;
     margin-bottom: 2em;
@@ -24,15 +26,4 @@ ul.shop-info-description li {
 
 div.shop-content {
     text-indent: 0em;
-}
-
-div.like {
-    color: #337ab7;
-    cursor:pointer;
-    display:inline-block;
-    padding: 0.5em 0.3em;
-}
-
-div.like .active {
-    color: #f22;
 }
